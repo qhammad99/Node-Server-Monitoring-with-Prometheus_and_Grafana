@@ -1,5 +1,4 @@
-# Node-Server-Monitoring-with-Prometheus_and_Grafana
-In that project we will create a node-js server using express framework. Then we will start monitoring that server.
+In this project we will create a node-js server using express framework. Then we will start monitoring that server.
 
     Document version 1.1
 
