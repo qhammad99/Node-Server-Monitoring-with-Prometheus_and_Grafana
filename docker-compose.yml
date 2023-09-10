@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  prometheus-server:
+    container_name: metrics_server
+    image: prom/prometheus
+    volumes:
+      - ./prometheus-server/prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"

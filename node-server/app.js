@@ -25,7 +25,7 @@ app.get("/random-work", async(req,res)=>{
 app.get("/metrics", async(req,res)=>{
     res.setHeader('Content-Type', agent.register.contentType);
     const metrics = await agent.register.metrics();
-    res.status(200).json(metrics);
+    res.send(metrics);
 });
 
 const server = app.listen(PORT, ()=>{
