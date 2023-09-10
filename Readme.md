@@ -1,4 +1,4 @@
-    Document version 1.2.2
+    Document version 1.2.3
     Domain: Public Repository
     Start Date: 10th September 2023
     Update Date: 10th Septemeber 2023
@@ -62,9 +62,19 @@ Docker image used for grafana server is
     
 and port used for that server is
 
-***3000***
+***3000*** but i will use 4000, because 3000 used by other services.
 
-    By default we have to set dashboard manually, but that is very time consuming, some buil in dashboards already available we will use them, more details we will cover later...
+After installing docker images you can visit http://localhost:4000 to access grafana. default user and password is admin admin.
+
+![Grafana Dashboard](./images/grafana-dashboard-success.png)
+
+    By default we have to set dashboard manually, but that is very time consuming, some buil in dashboards already available we will use them
+
+    go to  Dashboard, on right side NEW button click on it, there option imort.
+    click on it give the following id: 11159
+    and in source click on promethesu.
+    and click load. 
+    Dashboard is ready.
 
 ### 2.3 Grafana Loki
     (Logs monitoring server, Maybe we will not cover that in our project.)
