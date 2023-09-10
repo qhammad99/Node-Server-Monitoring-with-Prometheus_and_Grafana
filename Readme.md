@@ -64,7 +64,8 @@ and port used for that server is
 
 ***3000*** but i will use 4000, because 3000 used by other services.
 
-After installing docker images you can visit http://localhost:4000 to access grafana. default user and password is admin admin.
+After installing docker images you can visit http://localhost:4000 to access grafana. default user and password is admin admin. then add data source, ip and port of parametheus
+and save it.
 
 ![Grafana Dashboard](./images/grafana-dashboard-success.png)
 
