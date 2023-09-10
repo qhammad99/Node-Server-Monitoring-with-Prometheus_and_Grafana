@@ -1,4 +1,4 @@
-    Document version 1.2.1
+    Document version 1.2.2
     Domain: Public Repository
     Start Date: 10th September 2023
     Update Date: 10th Septemeber 2023
@@ -43,6 +43,11 @@ and port used for that server is
 It will also need config (yaml) file. We will bind that volumne at
 
 ***/etc/prometheus/prometheus.yml***
+
+After installing docker containers, you can test prometheus server running by visiting
+localhost:9000/targets. There you will see it automatically calls the ip:port/metrics which we passed during configuration of prometheus server. Snap shot of it attached below
+
+![Successfull promethesu server- snapshot](./images/prometheus-success.png)
     
 
 ### 2.2. Grafana
@@ -71,6 +76,9 @@ To run project you will pre-required installation of following.
 1. node with nvm
 2. docker compose
 
+Let's do configurations first of all.
+* prometheus-server/prometheus.yml: place your ip at line number 20.
+
 You can run node js server by following commands in terminal.
 
 ```
@@ -83,7 +91,7 @@ You can run required monitoring server by following commands in terminal.
 ```
 #navigate to main project folder, if you currently in node-server
 cd .. 
-docker compose up
+docker compose up -d
 ```
 
 More steps will be added after doing some more work
