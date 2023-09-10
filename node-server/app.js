@@ -14,11 +14,10 @@ app.get("/", (req,res)=>{
     res.status(200).json("Server is running");
 })
 
-app.get("/random-work", (req,res)=>{
-    res.status(200).json("Server is doing some work..");
+app.get("/random-work", async(req,res)=>{
+    const work_message = await randomWork();
+    res.status(200).json(work_message);
 })
-
-randomWork();
 
 const server = app.listen(PORT, ()=>{
     console.log(`Server is up and listening on port ${PORT}`);

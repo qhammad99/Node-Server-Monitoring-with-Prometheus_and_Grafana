@@ -18,7 +18,8 @@ const getRandomValueOfArray = (arr) => {
  * Random Work: Some random work to simulate/mock that server is doing something
  */
 const doRandomWork = () =>{
-    console.log(getRandomValueOfArray([11, 22, 33]));
+    const random_time = getRandomValueOfArray([400, 600, 800, 1200, 1500]);
+    return new Promise((resolve, reject) => setTimeout(()=>resolve(`Random work completed in ${random_time} ms`), random_time))
 }
 
 exports.randomWork = doRandomWork;
