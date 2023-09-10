@@ -40,6 +40,8 @@ It will also need config (yaml) file. We will bind that volumne at
 
 Grafana is a GUI tool, which will provide use beautiful Visuals. We will connect Grafana server with prometeus server to display those values in beautifule graphs.
 
+    Grafana will hold data for some days. Not permanent. Currently it is holding data for 15 Days.
+
 Docker image used for grafana server is
 
 ***grafana/grafana-oss***
