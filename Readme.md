@@ -1,6 +1,8 @@
 # Node-Server-Monitoring-with-Prometheus_and_Grafana
 In that project we will create a node-js server using express framework. Then we will start monitoring that server.
 
+    Document version 1.1
+
 ## What is Monitoring?
 Monitoring means tracking and observing servers health and operations running on it. We monitor our servers, so if any issue comes we can trace it. Monitoring is of two types
 1. Metrics
