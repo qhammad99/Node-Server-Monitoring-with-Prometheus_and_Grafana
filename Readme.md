@@ -1,11 +1,14 @@
-    Document version 1.2
-    Data: 10th September 2023
+    Document version 1.2.1
+    Domain: Public Repository
+    Start Date: 10th September 2023
+    Update Date: 10th Septemeber 2023
+
 In this project we will create a node-js server using express framework. Then we will start monitoring that server.
 
 Following headings are covered in that readme.
-1. What is Monitoring?
-2. Tools for monitoring.
-3. How to run Project
+1. [What is Monitoring?](#1-what-is-monitoring)
+2. [Tools for monitoring](#2-tools-for-monitoring)
+3. [How to run Project](#3-how-to-run-project)
 
 ## 1. What is Monitoring?
 Monitoring means tracking and observing servers health and operations running on it. We monitor our servers, so if any issue comes we can trace it. Monitoring is of two types
@@ -87,7 +90,7 @@ More steps will be added after doing some more work
 
 ---
 
-_Created by: qhammad99_
+_Created by: [Hammad Qureshi](https://github.com/qhammad99)_
 
 ---
 If you found any issue, feel free to open issue. 
